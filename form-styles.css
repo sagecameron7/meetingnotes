@@ -22,7 +22,14 @@ body{
 }
 .header-wrapper{
     display: inline-flex;
-    margin: 30px;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+    background-color: rgb(95,104,131);
+    border-radius: 2rem;
+    height: 15rem;
+    width: 40rem;
+    padding: 1.5rem;
 }
 .top-right{
     float: right;
