@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    background-color: #a1a1a1;
+ }
+.container{
+    max-width: 102.4rem;
+    margin: 0 auto;
+    background-color: white;
+    padding:2rem;
+    box-shadow: .5rem .5rem .5rem #333232;
+}
+
+.header-wrapper h2{
+    margin:0;
+    padding:0;
+}
+.header-wrapper{
+    display: inline-flex;
+    margin: 30px;
+}
+.top-right{
+    float: right;
+    margin:40px 40px 0 0;
+}
+.business-details {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.corner-logo{
+    height:100px;
+    width:100px;
+    float:left;
+}
+.data-portion{
+    display: flex;
+    align-items: flex-start;
+
+}
+.data-portion-grid{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-column-gap: 10px;
+}
+.data-portion-grid div:nth-child(odd){
+    text-align: left;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+
+}
+.crew-grid{
+    display:grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-column-gap: 30px;
+}
+.crew-grid div:nth-child(even){
+    text-align: left;
+    font-weight: bold;
+}
+.additional-crew{
+    padding-top: 40px;
+}
