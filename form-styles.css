@@ -75,3 +75,8 @@ body{
 .additional-crew{
     padding-top: 40px;
 }
+.bold-bottom{
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: rgb(146, 19, 150);
+}
